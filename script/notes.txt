@@ -1,0 +1,5 @@
+to save my work
+
+git add .
+git commit -m "smth"
+git push

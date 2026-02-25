@@ -1,0 +1,31 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+}
+
+.loading-text {
+    font-size: 50px;
+    opacity: 1;
+}
+
+.bg {
+    width: 100vw;
+    height: 100vw;
+    background_image: url('web/shubham-dhage-M7PWgSlws5Y-unsplash.jpg');
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    filter: blur(50px);
+}
+

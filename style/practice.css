@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+    background: red;
+}
+
+.box {
+    background: blue;
+    height:50px;
+    width: 50px;
+}
+
+.box.active .input {
+    width: 200px;
+    height: 200px;
+}

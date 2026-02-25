@@ -1,11 +1,23 @@
 
 box = document.querySelector('.box')
 
-switch = "bigger"
+change = 1
 
 box.addEventListener('click', () =>{
+    if (change == 1)
+    {
+        console.log("bigger")
     box.style.width = "200px"
     box.style.height = "200px"
+    change = 0
+    }
+    else
+    {
+        console.log("smaller")
+    box.style.width = "50px"
+    box.style.height = "50px"
+    change = 1
+    }
 })
 
 

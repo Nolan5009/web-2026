@@ -15,17 +15,19 @@ body {
 .loading-text {
     font-size: 50px;
     opacity: 1;
+    color: white;
+    opacity: 1;
 }
 
 .bg {
     width: 100vw;
-    height: 100vw;
-    background_image: url('web/shubham-dhage-M7PWgSlws5Y-unsplash.jpg');
+    height: 100vh;
+    background-image: url("images/background.jpg");
     position: absolute;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     z-index: -1;
-    filter: blur(50px);
+    filter: blur(20px);
 }
 

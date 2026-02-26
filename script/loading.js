@@ -1,11 +1,15 @@
 loadText = document.querySelector('.loading-text')
-bg = ducument.querySelector('.bg')
+bg = document.querySelector('.bg')
 
 load = 0
 
 int = setInterval(blurring, 30)
 
 function blurring() {
+    if(load > 99)
+    {
+        clearInterval(int)
+    }
     load = load + 1
     loadText.innerText = `${load}%`
     leadText.style.opacity = 1-load/100

@@ -6,14 +6,14 @@ load = 0
 int = setInterval(blurring, 30)
 
 function blurring() {
-    if(load > 99)
+    if(load > 98)
     {
         clearInterval(int)
     }
     load = load + 1
     loadText.innerText = `${load}%`
-    leadText.style.opacity = 1-load/100
-    bg.style.filter = `blur({50-load/2}px)`
+    leadText.style.opacity = 1 - load/100
+    bg.style.filter = `blur(${30-(load/100)*30}px)`
     if (load > 99) {
         clearInterval(int)
     }

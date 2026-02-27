@@ -22,7 +22,7 @@ body {
 .bg {
     width: 100vw;
     height: 100vh;
-    background-image: url("images/background.jpg");
+    background-image: url("style/images/background.jpg");
     position: absolute;
     background-repeat: no-repeat;
     background-size: cover;

@@ -2,7 +2,7 @@ clickBox = document.querySelector('.click')
 clickToSpin = document.querySelector('.spin')
 moveBox = document.querySelector('.move')
 hoverBox = document.querySelector('.hover')
-dblClickBox = document.querySelector('.dblClick')
+dblClickBox = document.querySelector('.dblclick')
 
 console.log(clickBox)
 console.log(moveBox)
@@ -47,6 +47,11 @@ hoverBox.addEventListener('mouseleave', () => {
     // hoverbox.style.width = '250px'
 })
 
-dblClickBox.addEventListener('click', () => {
+opacity = 1
+
+dblClickBox.addEventListener('dblclick', () => {
+    console.log(dblClickBox)
+    opacity = opacity - 0.1
+    dblClickBox.style.opacity = `${opacity}`
     dblClickBox.style.color = "green"
 })

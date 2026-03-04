@@ -49,4 +49,5 @@ hoverBox.addEventListener('mouseleave', () => {
 
 dblClickBox.addEventListener("dblclick", () => {
     dblClickBox.style.opacity = '0.5'
+    dblClickBox.style.color = 'white'
 })

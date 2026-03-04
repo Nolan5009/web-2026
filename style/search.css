@@ -48,7 +48,7 @@ body {
     width:50px;
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     translation: transform 1s ease;
 }
 

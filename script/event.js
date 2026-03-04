@@ -53,5 +53,10 @@ dblClickBox.addEventListener('dblclick', () => {
     console.log(dblClickBox)
     opacity = opacity - 0.1
     dblClickBox.style.opacity = `${opacity}`
-    dblClickBox.style.color = "green"
+    dblClickBox.style.color = "red"
+    if (opacity == 0)
+    {
+        dblClickBox.style.opacity = "1"
+        opacity = 1
+    }
 })

@@ -36,7 +36,7 @@ document.addEventListener('keydown', (event) => {
 })
 
 hoverBox.addEventListener('mouseenter', () => {
-    hoverBox.style.transform = "scale(0.5)"
+    hoverBox.style.transform = "scale(2)"
     // hoverBox.style.height = '100px'
     // hoverBox.style.width = '100px'
 })
@@ -45,4 +45,8 @@ hoverBox.addEventListener('mouseleave', () => {
     hoverBox.style.transform = "scale(1)"
     // hoverBox.style.height = '80px'
     // hoverbox.style.width = '250px'
+})
+
+dblClickBox.addEventListener("dblclick", () => {
+    dblClickBox.style.opacity = '0.5'
 })

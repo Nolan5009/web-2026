@@ -12,8 +12,8 @@ body {
 
 
 .rectangle{
-    height: 80px;
-    width: 250px;
+    height: 10vh;
+    width: 20vw;
     background: blue;
     margin: 3px;
     display: flex;

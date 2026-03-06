@@ -51,12 +51,7 @@ opacity = 1
 
 dblClickBox.addEventListener('dblclick', () => {
     console.log(dblClickBox)
-    opacity = opacity - 0.1
-    dblClickBox.style.opacity = `${opacity}`
-    dblClickBox.style.color = "red"
-    if (opacity == 0)
-    {
-        dblClickBox.style.opacity = "1"
-        opacity = 1
-    }
+    x1 = Math.random() * -750
+    y1 = Math.random() * -550
+    dblClickBox.style.transform = `translate(${x1}px, ${y1}px)`
 })

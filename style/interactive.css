@@ -18,6 +18,7 @@ body {
     position: absolute;
     top: 40px;
     right: 70px;
+    cursor: pointer;
 }
 
 
@@ -35,7 +36,11 @@ body {
 }
 
 .btn {
+    background: blue;
+    border: 0;
+    height: 43px;
+    width:45px;
     position: absolute;
-    height: 40px;
-    width: 40px;
+    border-radius: 10px;
+    translation: transform 1s ease;
 }

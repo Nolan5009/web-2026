@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.button {
+    background: grey;
+    height: 5vh;
+    width: 5vw;
+    border-radius: 10px;
+    position: absolute;
+    top: 40px;
+    right: 70px;
+}
+
+
+.bg {
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+.bg.active {
+        width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    background: black
+}

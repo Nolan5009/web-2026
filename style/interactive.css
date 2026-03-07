@@ -36,7 +36,7 @@ body {
 }
 
 .btn {
-    background: blue;
+    background: black;
     border: 0;
     height: 41.5px;
     width:45px;
@@ -45,6 +45,7 @@ body {
 }
 
 .btn.active {
+    background: white;
     transform: translate(31.8px, 0px);
     translation: transform 1s ease;
 }

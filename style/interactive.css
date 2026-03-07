@@ -33,3 +33,9 @@ body {
     z-index: -1;
     background: black
 }
+
+.btn {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+}

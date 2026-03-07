@@ -38,9 +38,13 @@ body {
 .btn {
     background: blue;
     border: 0;
-    height: 43px;
+    height: 41.5px;
     width:45px;
     position: absolute;
     border-radius: 10px;
     translation: transform 1s ease;
+}
+
+.i.fa-solid.fa-sun {
+    color: white;
 }

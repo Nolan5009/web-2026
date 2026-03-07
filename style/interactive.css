@@ -42,9 +42,9 @@ body {
     width:45px;
     position: absolute;
     border-radius: 10px;
-    translation: transform 1s ease;
 }
 
-.i.fa-solid.fa-sun {
-    color: white;
+.btn.active {
+    transform: translate(31.8px, 0px);
+    translation: transform 1s ease;
 }

@@ -34,13 +34,13 @@ body {
     z-index: -1;
     background: black
 }
-
-.button.btn {
+.btn {
     background: black;
     border: 0;
-    height: 41.5vh;
-    width:45vw;
+    height: 5vh;
+    width: 2.5vw;
     position: absolute;
+    left: 0;
     border-radius: 10px;
 }
 
@@ -48,10 +48,12 @@ body {
     opacity: 0;
 }
 .btn2 {
-    background: black;
+    background: white;
     border: 0;
-    height: 41.5px;
-    width:45px;
+    height: 5vh;
+    width:2.5vw;
     position: absolute;
+    right: 0;
+    opacity: 1;
     border-radius: 10px;
 }

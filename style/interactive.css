@@ -14,7 +14,7 @@ body {
     position: absolute;
 }
 
-.text h3.active {
+.text.active h3 {
     color: white;
 }
 

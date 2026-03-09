@@ -10,6 +10,14 @@ body {
     margin: 0;
 }
 
+.text {
+    position: absolute;
+}
+
+.text h3.active {
+    color: white;
+}
+
 .button {
     background: grey;
     height: 5vh;

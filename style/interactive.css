@@ -14,6 +14,11 @@ body {
     position: absolute;
 }
 
+.text h3 {
+    font-size: 40px;
+    color: black;
+}
+
 .text.active h3 {
     color: white;
 }

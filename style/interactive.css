@@ -35,11 +35,11 @@ body {
     background: black
 }
 
-.btn {
+.button.btn {
     background: black;
     border: 0;
-    height: 41.5px;
-    width:45px;
+    height: 41.5vh;
+    width:45vw;
     position: absolute;
     border-radius: 10px;
 }
@@ -47,11 +47,11 @@ body {
 .btn.active {
     opacity: 0;
 }
-.btn2 {
+/* .btn2 {
     background: black;
     border: 0;
     height: 41.5px;
     width:45px;
     position: absolute;
     border-radius: 10px;
-}
+} */

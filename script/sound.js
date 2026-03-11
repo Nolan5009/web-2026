@@ -1,4 +1,4 @@
-buttons = document.querySelector(".buttons")
+buttons = document.querySelector('.buttons')
 
 sounds = ['applause', 'boo', 'gasp', 'tada', 'victory', 'wrong']
 

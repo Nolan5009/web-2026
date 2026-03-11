@@ -8,7 +8,7 @@ for (let i = 0; i < 6; i = i + 1){
     btn.classList.add('btn')
     btn.addEventListener('click', () => {
         stopSounds()
-        document.querySelector(`.$sounds[i]`).play()
+        document.querySelector(`.${sounds[i]}`).play()
     })
     buttons.appendChild(btn)
 }
@@ -16,8 +16,8 @@ for (let i = 0; i < 6; i = i + 1){
 function stopSounds() {
     for (let i = 0; i < sounds.length; i = i + 1)
     {
-        document.querySelector(`.$sounds[i]`).pause()
-        document.querySelector(`.$sounds[i]`).currentTime = 0
+        document.querySelector(`.${sounds[i]}`).pause()
+        document.querySelector(`.${sounds[i]}`).currentTime = 0
     }
 }
 

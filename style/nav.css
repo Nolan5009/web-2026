@@ -4,16 +4,18 @@
 * {
     box-size: border-box;
     margin-box;
+    pading: 0;
 }
 
 body{
     font-family: "Playfair Display", serif;
-    background: #333333;
-    color: #222222;
+    background: #222222;
     overflow-x: hidden;
+    paddingh-bottom: 50px;
 }
 
 .container {
+    max-width: 1200px;
     background: #fafafa;
     width: 100vw;
     min-height: 100vh;

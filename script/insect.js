@@ -3,7 +3,7 @@ choose_insect_btns = document.querySelectorAll('.choose-insect-btn')
 start_btn = document.getElementById('start-btn')
 game_container = document.querySelector('.game-container')
 scoreEl = document.getElementById('score')
-timeEL = document.getElementById('time')
+timeEl = document.getElementById('time')
 score = 0
 seconds = 0
 
@@ -64,5 +64,6 @@ function increaseScore() {
 
 function increaseTime() {
     seconds = seconds + 1
+    
     timeEl.innerHTML = `Time: ${seconds}`
 }

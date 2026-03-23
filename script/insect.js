@@ -22,7 +22,7 @@ for (let i = 0; i < choose_insect_btns.length; i = i + 1)
 }
 
 function startGame() {
-    setTimeout(createInsect, 500)
+    setTimeout(createInsect, 1000)
 }
 
 function createInsect() {

@@ -49,11 +49,10 @@ function getRandomLocation() {
     return {x, y}
 }
 
-function catchInsect(e) {
+function catchInsect(insect) {
     increaseScore()
-    // insect = e.currentTarget
-    // insect.classList.add('caught')
-    // setTimeout( () => insect.remove(), 2000)
+    insect.classList.add('caught')
+    setTimeout( () => insect.remove(), 2000)
 }
 
 

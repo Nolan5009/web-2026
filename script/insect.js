@@ -66,5 +66,12 @@ function increaseTime() {
     seconds = seconds + 1
     m = Math.floor(seconds/60)
     s = seconds % 60
+    if (m < 10) {
+        m = `0${m}`
+    }
+    if (s < 10) {
+        s = `0${s}`
+    }
+
     timeEl.innerHTML = `Time: ${m}:${s}`
 }

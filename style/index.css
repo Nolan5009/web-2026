@@ -4,4 +4,17 @@
 
 body {
     background: #bf6702;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    height: 5vh;
+    width: 5vw;
+    background: blue;
+    display: absolute;
+    top: 50px;
+    left; 50px;
 }

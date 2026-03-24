@@ -4,6 +4,7 @@ start_btn = document.getElementById('start-btn')
 game_container = document.querySelector('.game-container')
 scoreEl = document.getElementById('score')
 timeEl = document.getElementById('time')
+messageEl = document.getElementById('message')
 score = 0
 seconds = 0
 
@@ -52,7 +53,7 @@ function getRandomLocation() {
 function catchInsect(insect) {
     increaseScore()
     insect.classList.add('caught')
-    setTimeout( () => insect.remove(), 2000)
+    setTimeout( () => insect.remove())
     addInsects()
 }
 

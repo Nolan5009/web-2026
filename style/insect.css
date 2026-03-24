@@ -101,7 +101,7 @@ h1 {
 }
 
 .message {
-    opacity: 0;
+    opacity: 1;
     line-height: 1.7;
     background: #000000;
     width: 100%;

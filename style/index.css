@@ -6,14 +6,12 @@ body {
     background: #ADD8E6;
     height: 100vh;
     display: flex;
-    align-items: center;
     margin: 0;
 }
 
 .container {
-    height: 5vh;
-    width: 5vw;
-    background: blue;
+    height: 10vh;
+    width: 10vw;
     display: absolute;
     top: 50px;
     right: 50px;

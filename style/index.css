@@ -19,3 +19,9 @@ body {
     top: 0px;
     margin: 0;
 }
+
+.container {
+    display: flex;
+    background: black;
+    margin: 20px;
+}

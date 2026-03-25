@@ -24,7 +24,7 @@ body {
     display: flex;
     background: blue;
     height: 10vh;
-    width: 10vw;
+    width: 12vw;
     margin: 20px;
     border: 1px solid black;
     border-radius: 10px;
@@ -33,11 +33,7 @@ body {
 .container .panel a {
     font-size: 20px;
     color: white;
-}
-
-.nav {
-    position: absolute;
+    position: relative;
+    align-items: center;
     justify-content: center;
-    top: 10px;
-    left: 10px;
 }

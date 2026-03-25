@@ -13,8 +13,8 @@ body {
     height: 10vh;
     width: 25vw;
     position: absolute;
-    
-    bottom: 10px;
+    justify-content: center;
+    align-item: center;
     left: 0px;
     margin: 0;
 }

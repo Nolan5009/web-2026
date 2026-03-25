@@ -30,7 +30,7 @@ body {
 }
 
 .nav {
-    display: flex;
+    position: absolute;
     justify-content: center;
     top: 10px;
     left: 10px;

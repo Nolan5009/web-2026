@@ -21,11 +21,19 @@ body {
     margin: 0;
 }
 
+.container {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
 .container .panel {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
     background: blue;
     height: 10vh;
     width: 12vw;
-    margin: 20px;
     border: 1px solid black;
     border-radius: 10px;
 }
@@ -39,10 +47,4 @@ body {
     justify-content: center;
     top: 15px;
     left: 2.5vw;
-}
-
-.nav {
-    position: absolute;
-    justify-content: center;
-    align-items: center;
 }

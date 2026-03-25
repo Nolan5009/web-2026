@@ -12,9 +12,9 @@ body {
 .title {
     height: 10vh;
     width: 25vw;
-    display: fixed;
-    align-items: center;
-    top: 50px;
+    position: absolute;
+    
+    bottom: 10px;
     left: 0px;
     margin: 0;
 }

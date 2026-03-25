@@ -22,7 +22,6 @@ body {
 
 .container .panel {
     display: flex;
-    lign-items: center;
     justify-content: center;
     background: blue;
     height: 10vh;

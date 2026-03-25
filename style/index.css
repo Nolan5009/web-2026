@@ -39,3 +39,10 @@ body {
     justify-content: center;
     top: 15px;
 }
+
+.nav {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    left: 50%;
+}

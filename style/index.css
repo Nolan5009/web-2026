@@ -20,9 +20,10 @@ body {
     margin: 0;
 }
 
-.container {
+.container .panel {
     display: flex;
     background: black;
+    align-items: center;
     height: 10vh;
     width: 10vw;
     margin: 20px;

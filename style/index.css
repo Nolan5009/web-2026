@@ -28,3 +28,10 @@ body {
     width: 10vw;
     margin: 20px;
 }
+
+.nav {
+    display: flex;
+    justify-content: center;
+    top: 10px;
+    left: 10px;
+}

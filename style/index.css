@@ -1,5 +1,5 @@
 * {
-    box-sizing.border-box
+    box-sizing: border-box;
 }
 
 body {
@@ -22,6 +22,8 @@ body {
 
 .container .panel {
     display: flex;
+    lign-items: center;
+    justify-content: center;
     background: blue;
     height: 10vh;
     width: 12vw;

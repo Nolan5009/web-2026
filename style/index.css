@@ -9,10 +9,11 @@ body {
     margin: 0;
 }
 
-.container {
+.title {
     height: 10vh;
-    width: 50vw;
+    width: 25vw;
     display: fixed;
+    align-items: center;
     top: 50px;
     left: 0px;
     margin: 0;

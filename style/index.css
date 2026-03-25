@@ -11,8 +11,9 @@ body {
 
 .container {
     height: 10vh;
-    width: 10vw;
-    display: absolute;
+    width: 50vw;
+    display: fixed;
     top: 50px;
-    right: 50px;
+    left: 0px;
+    margin: 0;
 }

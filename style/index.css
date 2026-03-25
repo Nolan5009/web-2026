@@ -32,15 +32,16 @@ body {
     justify-content: center;
     align-items: center;
     background: blue;
-    height: 10vh;
-    width: 12vw;
-    border: 1px solid black;
+    height: 15vh;
+    width: 17vw;
+    border: 2px solid black;
     border-radius: 10px;
+    text-align: center;
 }
 
 .container .panel a {
     display: relative;
-    font-size: 20px;
+    font-size: 5vh;
     color: white;
     position: relative;
     align-items: center;

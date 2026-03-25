@@ -14,7 +14,7 @@ body {
     width: 25vw;
     position: absolute;
     justify-content: center;
-    align-item: center;
+    align-item: space-between;
     left: 0px;
     margin: 0;
 }

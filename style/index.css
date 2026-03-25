@@ -31,12 +31,14 @@ body {
 }
 
 .container .panel a {
+    display: relative;
     font-size: 20px;
     color: white;
     position: relative;
     align-items: center;
     justify-content: center;
     top: 15px;
+    left: 2.5vw;
 }
 
 .nav {

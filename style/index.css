@@ -10,10 +10,10 @@ body {
 }
 
 .title {
-    height: 10vh;
-    width: 25vw;
     position: absolute;
+    display: flex;
     justify-content: center;
+    align-items: center;
     left: 0px;
     margin: 0;
 }

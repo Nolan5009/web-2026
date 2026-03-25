@@ -23,5 +23,7 @@ body {
 .container {
     display: flex;
     background: black;
+    height: 10vh;
+    width: 10vw;
     margin: 20px;
 }

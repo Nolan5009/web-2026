@@ -113,11 +113,6 @@ body {
     align-items: center;
     border: 2px solid black;
 }
-.search a {
-    font-size: 1.5vh;
-    color: white;
-    text-decoration: none;
-}
 
 @keyframes moving {
     from {

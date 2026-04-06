@@ -120,7 +120,7 @@ body {
     width:40px;
     position: absolute;
     border-radius: 10px;
-    translation: transform 1s ease;
+    transition: transform 1s ease;
     top: 20px;
     right: 20px;
 }
@@ -132,7 +132,7 @@ body {
 
 @keyframes moving {
     from {
-        transfrom: translateY(0px)
+        transform: translateY(0px)
     }
     to {
         transform: translateY(10px)

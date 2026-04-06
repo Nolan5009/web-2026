@@ -8,6 +8,7 @@ sound = document.querySelector('.sound')
 insect = document.querySelector('.insect')
 nav = document.querySelector('.nav')
 search = document.querySelector('.search')
+btn = document.querySelector('.bg-music')
 
 
 start_box.addEventListener('click', () => {
@@ -22,3 +23,8 @@ start_box.addEventListener('click', () => {
     nav.classList.add('active')
     search.classList.add('active')
 })
+
+ btn.addEventListener('click', () => {
+        document.querySelector('.bgMusic').play()
+        buttons.appendChild(btn)
+ }

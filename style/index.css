@@ -20,7 +20,12 @@ body {
 }
 
 .hit-me {
+    position: absolute;
     display: flex;
+    justifu-content: center;
+    align-items: center;
+    top: 50vh;
+    left: 50vw;
     z-index: 100;
     background: blue;
     height: 50px;
@@ -36,9 +41,12 @@ body {
 
 .hit-me.active {
     opacity: 0;
+    transform: scale(0);
 }
 .container {
     position: relative;
+    width: 100vw;
+    height: 100vh;
 }
 .container .panel {
     position: absolute;
@@ -73,68 +81,84 @@ body {
     color: white;
     margin: 0.5rem;
     height: 40px;
-    width: 40px;
+    width: 70px;
     font-size: 15px;
     cursor: pointer;
     border-radius: 7px;
     position: absolute;
     top: 20px;
     left: 20px;
+    z-index: 100;
 }
 
 .panel.loading.active{
     position: absolute;
-    top: 20vh;
+    top: 15vh;
     left: 10vh;
 }
 
 .panel.practice.active{
     position: absolute;
-    top: 20vh;
-    left: 30vw;
+    top: 15vh;
+    left: 32vw;
 }
 
 .panel.expanding.active{
     position: absolute;
-    top: 20vh;
-    left: 50vw;
+    top: 15vh;
+    left: 54vw;
 }
 
 .panel.event.active{
     position: absolute;
-    top: 20vh;
-    left: 70vh;
+    top: 15vh;
+    left: 76vw;
 }
 
 .panel.interactive.active{
     position: absolute;
-    top: 300px;
-    left: 100px;
+    top: 50vh;
+    left: 20vw;
 }
 
 .panel.sound.active{
     position: absolute;
-    top: 300px;
-    left: 400px;
+    top: 50vh;
+    left: 60vw;
 }
+
+.panel.nav.active{
+    position: absolute;
+    top: 75vh;
+    left: 20vw;
+}
+
+.panel.insect.active{
+    position: absolute;
+    top: 75vh;
+    left: 60vw;
+}
+
 
 .search{
     background: blue;
-    border: 10px;
+    border: 2px solid black;
     cursor: pointer;
     font-size: 24px;
     height: 40px;
-    width:40px;
+    width:70px;
     position: absolute;
     border-radius: 10px;
     transition: transform 1s ease;
     top: 20px;
     right: 20px;
+    z-index: 100;
 }
 
 .search a{
-    font-size: 5vh;
+    font-size: 15px;
     color: white;
+    text-decoration: none;
 }
 
 @keyframes moving {

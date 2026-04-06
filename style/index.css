@@ -57,6 +57,7 @@ body {
     transform: scale(0);
     opacity: 0;
     transition: opacity .5s ease-in;
+    transition: transform .5s ease-in;
     animation: moving 1.5s ease-in-out infinite alternate;
 }
 
@@ -86,7 +87,9 @@ body {
 }
 
 .loading .active{
-
+    position: absolute;
+    top: 100px;
+    left: 100px;
 }
 
 .practice .active{
@@ -94,6 +97,18 @@ body {
 }
 
 .expanding .active{
+
+}
+
+.event{
+
+}
+
+.interactive{
+
+}
+
+.sound{
 
 }
 

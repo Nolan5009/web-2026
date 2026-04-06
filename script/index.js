@@ -26,5 +26,4 @@ start_box.addEventListener('click', () => {
 
  btn.addEventListener('click', () => {
         document.querySelector('.bgMusic').play()
-        buttons.appendChild(btn)
- }
+})

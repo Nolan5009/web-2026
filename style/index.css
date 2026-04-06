@@ -112,9 +112,8 @@ body {
 }
 
 .search a{
-        font-size: 5vh;
+    font-size: 5vh;
     color: white;
-    text-decoration: none;
 }
 
 @keyframes moving {

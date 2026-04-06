@@ -105,11 +105,18 @@ body {
     height: 50px;
     width:50px;
     position: absolute;
+    border-radius: 10px;
     top: 0;
     right: 0;
     translation: transform 1s ease;
     top: 20px;
     right: 20px;
+}
+
+.search a{
+        font-size: 5vh;
+    color: white;
+    text-decoration: none;
 }
 
 @keyframes moving {

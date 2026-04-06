@@ -98,8 +98,8 @@ body {
 }
 
 .search {
-    background: white;
-    border: 0;
+    background: blue;
+    border: 10px;
     cursor: pointer;
     font-size: 24px;
     height: 50px;

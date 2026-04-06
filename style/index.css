@@ -16,19 +16,36 @@ body {
     position: absolute;
     display: flex;
     justify-content: center;
-
     top: 0px;
-    margin: 0;
 }
 
+.hit-me {
+    display: flex;
+    z-index: 100;
+    background: blue;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    animation: moving 1.5s ease-in-out infinite alternate;
+    transition: opacity .5s ease-in;
+}
+
+.hit-me.active {
+    opacity: 0;
+}
 .container {
-    height: 100vh;
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: grid;
+    position: relative;
 }
 .container .panel {
     position: absolute;
+    display: flex;
     justify-content: center;
     align-items: center;
     background: blue;
@@ -37,15 +54,75 @@ body {
     border: 2px solid black;
     border-radius: 10px;
     text-align: center;
+    transform: scale(0);
+    opacity: 0;
+    transition: opacity .5s ease-in;
+    animation: moving 1.5s ease-in-out infinite alternate;
+}
+
+.panel.active{
+    transform: scale(1);
+    opacity: 1;
 }
 
 .container .panel a {
-    display: relative;
     font-size: 5vh;
     color: white;
-    position: relative;
+    text-decoration: none;
+}
+
+.bg-music {
+    background: blue;
+    color: white;
+    margin: 0.5rem;
+    height: 40px;
+    width: 40px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 7px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.loading{
+
+}
+
+.practice{
+
+}
+
+.expanding {
+
+}
+
+.search {
+    background: blue;
+    color: white;
+    margin: 0.5rem;
+    height: 40px;
+    width: 40px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 7px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-align: center;
     align-items: center;
-    justify-content: center;
-    top: 15px;
-    left: 2.5vw;
+}
+.search a {
+    font-size: 1.5vh;
+    color: white;
+    text-decoration: none;
+}
+
+@keyframes moving {
+    from {
+        transfrom: translateY(0px)
+    }
+    to {
+        transform: translateY(10px)
+    }
 }

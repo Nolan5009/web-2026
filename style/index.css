@@ -98,20 +98,18 @@ body {
 }
 
 .search {
-    background: blue;
-    color: white;
-    margin: 0.5rem;
-    height: 40px;
-    width: 40px;
-    font-size: 15px;
+    background: white;
+    border: 0;
     cursor: pointer;
-    border-radius: 7px;
+    font-size: 24px;
+    height: 50px;
+    width:50px;
     position: absolute;
+    top: 0;
+    right: 0;
+    translation: transform 1s ease;
     top: 20px;
     right: 20px;
-    text-align: center;
-    align-items: center;
-    border: 2px solid black;
 }
 
 @keyframes moving {

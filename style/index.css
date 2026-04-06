@@ -85,15 +85,15 @@ body {
     left: 20px;
 }
 
-.loading{
+.loading .active{
 
 }
 
-.practice{
+.practice .active{
 
 }
 
-.expanding {
+.expanding .active{
 
 }
 
@@ -102,12 +102,10 @@ body {
     border: 10px;
     cursor: pointer;
     font-size: 24px;
-    height: 50px;
-    width:50px;
+    height: 40px;
+    width:40px;
     position: absolute;
     border-radius: 10px;
-    top: 0;
-    right: 0;
     translation: transform 1s ease;
     top: 20px;
     right: 20px;

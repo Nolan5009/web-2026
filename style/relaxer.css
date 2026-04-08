@@ -73,7 +73,7 @@ body {
     width: 20px;
     height: 190px;
     transform-origin: bottom center;
-    animatio: rotate 7.5s linear infinite;
+    animatio: rotate 7.5s linear forwards infinite;
 }
 
 

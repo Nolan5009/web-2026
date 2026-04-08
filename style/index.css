@@ -139,6 +139,12 @@ body {
     left: 60vw;
 }
 
+.panel.relaxer.active{
+    position: absolute;
+    top: 50vh;
+    left: 30vh;
+}
+
 
 .search{
     background: blue;

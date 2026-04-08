@@ -96,5 +96,5 @@ body {
 }
 
 .container.grow {
-    animation: grow 3s linear forwards;
+    animation: grow 3s linear forwards alternate infinite;
 }

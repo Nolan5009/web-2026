@@ -95,6 +95,21 @@ body {
     }
 }
 
+@keyframes shrink {
+    from {
+        transform: scale(1.2);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+
 .container.grow {
     animation: grow 3s linear forwards alternate infinite;
+}
+
+
+.container.shrink {
+    animation: shrink 2s linear forwards;
 }

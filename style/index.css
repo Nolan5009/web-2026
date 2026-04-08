@@ -22,7 +22,7 @@ body {
 .hit-me {
     position: absolute;
     display: flex;
-    justifu-content: center;
+    justify-content: center;
     align-items: center;
     top: 50vh;
     left: 50vw;

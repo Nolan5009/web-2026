@@ -9,6 +9,7 @@ breathAnimation()
 
 function breathAnimation() {
     text.innerText = 'Breath In'
+    container.classList.remove('shrink')
     container.classList.add('grow')
 
     setTimeout(() => {

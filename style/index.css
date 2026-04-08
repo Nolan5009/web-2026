@@ -94,7 +94,7 @@ body {
 .panel.loading.active{
     position: absolute;
     top: 15vh;
-    left: 10vh;
+    left: 10vw;
 }
 
 .panel.practice.active{
@@ -117,32 +117,32 @@ body {
 
 .panel.interactive.active{
     position: absolute;
-    top: 50vh;
-    left: 20vw;
+    top: 45vh;
+    left: 10vw;
 }
 
 .panel.sound.active{
     position: absolute;
-    top: 50vh;
-    left: 60vw;
+    top: 45vh;
+    left: 32vw;
 }
 
 .panel.nav.active{
     position: absolute;
-    top: 75vh;
-    left: 20vw;
+    top: 45vh;
+    left: 54vw;
 }
 
 .panel.insect.active{
     position: absolute;
-    top: 75vh;
-    left: 60vw;
+    top: 45vh;
+    left: 76vw;
 }
 
 .panel.relaxer.active{
     position: absolute;
-    top: 50vh;
-    left: 95vh;
+    top: 75vh;
+    left: 10vw;
 }
 
 

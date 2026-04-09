@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+    height: 100vh;
+    background: #5CD3FF;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+
+.palm{
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 35vh;
+    left: 22vw;
+    border: 10px solid black;
+    border-radius: 40%;
+    transform: rotate(-20deg);
+    background: #8E9494;
+}
+
+.blaster {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    width: 30vh;
+    background: #FFFF17;
+    border-radius: 50%;
+}
+
+.torso{
+    height: 1000px;
+    width: 450px;
+    background: #8E9494;
+    position: absolute;
+    top: 35vh;
+    left: 31.5vw;
+    z-index: -1;
+    border: 5px solid black;
+    border-radius: 40%;
+}
+
+.neck {
+    position: absolute;
+    background: #8E9494;
+    left: 45vw;
+    top: 25vh;
+    height: 100px;
+    width: 80px;
+    z-index: -2;
+    border: 5px solid black;
+}
+
+.head {
+    position: absolute;
+    background: #8E9494;
+    height: 150px;
+    width: 300px;
+    border-radius: 10%;
+    top: 5vh;
+    left: 37vw;
+}
+
+.leftEye {
+    background: black;
+    
+}

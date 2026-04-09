@@ -9,6 +9,7 @@ insect = document.querySelector('.insect')
 nav = document.querySelector('.nav')
 search = document.querySelector('.search')
 relaxer = document.querySelector('.relaxer')
+art = document.querySelector('.art')
 btn = document.querySelector('.bg-music')
 
 
@@ -24,6 +25,7 @@ start_box.addEventListener('click', () => {
     nav.classList.add('active')
     search.classList.add('active')
     relaxer.classList.add('active')
+    art.classList.add('active')
 })
 
  btn.addEventListener('click', () => {

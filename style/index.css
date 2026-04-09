@@ -145,6 +145,12 @@ body {
     left: 10vw;
 }
 
+.panel.art.active{
+    position: absolute;
+    top: 75vh;
+    left: 32vw;
+}
+
 
 .search{
     background: blue;

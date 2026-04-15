@@ -2,6 +2,8 @@ const ball = document.createElement('div')
 document.body.appendChild(ball)
 const LPaddle = document.createElement('div')
 document.body.appendChild(LPaddle)
+const RPaddle = document.createElement('div')
+document.body.appendChild(RPaddle)
 const windowHeight = window.innerHeight
 const windowWidth = window.innerWidth
 let LPaddleHeight = 100
@@ -50,9 +52,6 @@ function moveBall() {
         ballXDirection = ballXDirection * -1
     }
 }
-
-
-
 
 
 createBall()

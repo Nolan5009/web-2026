@@ -151,6 +151,11 @@ body {
     left: 32vw;
 }
 
+.panel.ball.active{
+    position: absolute;
+    top: 75vh;
+    left: 72vw;
+}
 
 .search{
     background: blue;

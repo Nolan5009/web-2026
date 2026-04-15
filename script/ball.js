@@ -83,15 +83,12 @@ sKey = false
 
 document.addEventListener('keydown', (event) => {
     if (event.key == 'w') {
-        if (LPaddleYPosition < 0) {
             wKey = true
-        }
+
     }
 
     if (event.key == 's') {
-        if (LPaddleYPosition >= windowHeight - LPaddleHeight) {
             sKey = true
-        }
     }
 })
 

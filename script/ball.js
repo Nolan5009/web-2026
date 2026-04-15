@@ -4,7 +4,7 @@ const LPaddle = document.createElement('div')
 document.body.appendChild(LPaddle)
 const windowHeight = window.innerHeight
 const windowWidth = window.innerWidth
-let LPaddleHeight = 500
+let LPaddleHeight = 100
 let LPaddleWidth = 20
 let LPaddleSpeed = 10
 const ballRadius = 30

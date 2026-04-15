@@ -32,7 +32,7 @@ function moveBall() {
         (ballBottom >= LPaddleTop) &&
         (ballTop <= LPaddleBottom) &&
         (ballLeft <= LPaddleRight) &&
-        (BallCDirection == -1)
+        (BallXDirection == -1)
     ) {
         ballXDirection = ballXDirection -1
     }

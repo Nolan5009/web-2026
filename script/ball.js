@@ -7,12 +7,12 @@ const windowWidth = window.innerWidth
 let LPaddleHeight = 100
 let LPaddleWidth = 20
 let LPaddleSpeed = 10
-const ballRadius = 30
+const ballRadius = 20
 let LPaddleYPosition = windowHeight / 2 - LPaddleHeight / 2
 let LPaddleXPosition = 70
 let ballXPosition = windowWidth / 2 - ballRadius
 let ballYPosition = windowHeight / 2 - ballRadius
-let ballSpeed = 5
+let ballSpeed = 10
 let ballXDirection = 1
 let ballYDirection = 1
 

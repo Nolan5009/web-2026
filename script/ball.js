@@ -4,11 +4,12 @@ const LPaddle = document.createElement('div')
 document.body.appendChild(LPaddle)
 const windowHeight = window.innerHeight
 const windowWidth = window.innerWidth
-let LPaddleHeight = 100
+let LPaddleHeight = 500
 let LPaddleWidth = 20
 let LPaddleSpeed = 10
 const ballRadius = 30
 let LPaddleYPosition = windowHeight / 2 - LPaddleHeight / 2
+let LPaddleXPosition = 70
 let ballXPosition = windowWidth / 2 - ballRadius
 let ballYPosition = windowHeight / 2 - ballRadius
 let ballSpeed = 5
@@ -20,22 +21,24 @@ let ballBottom = ballYPosition + 2 * ballRadius
 let ballLeft = ballXPosition
 let LPaddleTop = LPaddleYPosition
 let LPaddleBottom = LPaddleYPosition + LPaddleHeight
-let LPaddleRight = LPaddleYPosition + LPaddleWidth
+let LPaddleRight = 90
 
 
 
-setInterval(moveBall, 5)
+//setInterval(moveBall, 5)
 
 function moveBall() {
 
     if (
-        (ballBottom >= LPaddleTop) &&
-        (ballTop <= LPaddleBottom) &&
-        (ballLeft <= LPaddleRight) &&
-        (BallXDirection == -1)
+       (ballYPosition + 2 * ballRadius >= LPaddleTop) &&
+       (ballYPosition <= LPaddleBottom) &&
+        (ballXPosition <= 90) &&
+        (ballXDirection == -1)
     ) {
-        ballXDirection = ballXDirection -1
+        console.log("Hit")
+        ballXDirection = ballXDirection * -1
     }
+
     ballXPosition = ballXPosition + ballSpeed * ballXDirection
     ballYPosition = ballYPosition + ballSpeed * ballYDirection
     ball.style.left = `${ballXPosition}px`
@@ -106,7 +109,7 @@ function moveLPaddle() {
     if (wKey == true && LPaddleYPosition > 0) {
         LPaddleYPosition = LPaddleYPosition - LPaddleSpeed
     }
-    if (sKey == true && LPaddleYPosition < windowHeight - LPaddleWeight) {
+    if (sKey == true && LPaddleYPosition < windowHeight - LPaddleWidth) {
         LPaddleYPosition = LPaddleYPosition - LPaddleSpeed
     }
 }

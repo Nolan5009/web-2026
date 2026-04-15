@@ -102,6 +102,15 @@ document.addEventListener('keyup', (event) => {
     }
 })
 
+function moveLPaddle() {
+    if (wKey == ture && LPaddleYPosition > 0) {
+        LPaddleYPosition = LPaddleYPosition - LPaddleSpeed
+    }
+    if (sKey == ture && LPaddleYPosition < windowHeight - LPaddleWeight) {
+        LPaddleYPosition = LPaddleYPosition - LPaddleSpeed
+    }
+}
+
 function animate() {
     moveBall()
     moveLPaddle()

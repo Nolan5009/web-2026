@@ -30,8 +30,8 @@ let LPaddleRight = 90
 function moveBall() {
 
     if (
-       (ballYPosition + 2 * ballRadius >= LPaddleTop) &&
-       (ballYPosition <= LPaddleBottom) &&
+        (ballYPosition + 2 * ballRadius >= LPaddleTop) &&
+        (ballYPosition <= LPaddleBottom) &&
         (ballXPosition <= 90) &&
         (ballXDirection == -1)
     ) {

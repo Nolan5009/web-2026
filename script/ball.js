@@ -102,7 +102,7 @@ document.addEventListener('keyup', (event) => {
     }
 })
 
-console.log(wKey)
+
 
 function moveLPaddle() {
     if (wKey == true && LPaddleYPosition > 0) {
@@ -111,6 +111,7 @@ function moveLPaddle() {
     if (sKey == true && LPaddleYPosition < windowHeight - LPaddleWidth) {
         LPaddleYPosition = LPaddleYPosition - LPaddleSpeed
     }
+    
 }
 
 function animate() {

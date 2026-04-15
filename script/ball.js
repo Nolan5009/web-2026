@@ -32,7 +32,7 @@ function moveBall() {
     if (
         (ballYPosition + 2 * ballRadius >= LPaddleYPosition) &&
         (ballYPosition <= LPaddleYPosition + LPaddleHeight) &&
-        (ballXPosition <= 90) &&
+        (ballXPosition + ballRadius <= 90) &&
         (ballXDirection == -1)
     ) {
         console.log("Hit")

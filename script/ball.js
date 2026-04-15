@@ -105,6 +105,8 @@ document.addEventListener('keyup', (event) => {
     }
 })
 
+console.log(wKey)
+
 function moveLPaddle() {
     if (wKey == true && LPaddleYPosition > 0) {
         LPaddleYPosition = LPaddleYPosition - LPaddleSpeed

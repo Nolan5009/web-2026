@@ -103,10 +103,10 @@ document.addEventListener('keyup', (event) => {
 })
 
 function moveLPaddle() {
-    if (wKey == ture && LPaddleYPosition > 0) {
+    if (wKey == true && LPaddleYPosition > 0) {
         LPaddleYPosition = LPaddleYPosition - LPaddleSpeed
     }
-    if (sKey == ture && LPaddleYPosition < windowHeight - LPaddleWeight) {
+    if (sKey == true && LPaddleYPosition < windowHeight - LPaddleWeight) {
         LPaddleYPosition = LPaddleYPosition - LPaddleSpeed
     }
 }

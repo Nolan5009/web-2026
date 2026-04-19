@@ -174,7 +174,6 @@ body {
     width: 70px;
     background: #8E9494;
     transform: rotate(-20deg);
-    z-index: -4;
     border: 5px solid black;
     top: 80%;
     left: 80%;

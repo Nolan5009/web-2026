@@ -30,7 +30,7 @@ body {
     position relative;
     top: 35%;
     left: 10%;
-    transform:rotate(-20deg);
+    transform: rotate(-20deg);
     border: 10px solid black;
     border-radius: 40%;
     background: #8E9494;

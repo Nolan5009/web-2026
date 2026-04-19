@@ -178,6 +178,19 @@ body {
     border: 5px solid black;
     top: 80%;
     left: 80%;
-    z-index: -100;
+    z-index: -5;
+}
+
+.rightSholder {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 50%;
+    background: #263238;
+    top: 29%;
+    left: 40%;
+    transform: translateX(-50%);
+    z-index: -3;
 }
 

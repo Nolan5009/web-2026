@@ -39,7 +39,10 @@ function moveBall() {
     let ballTop = ballYPosition
     let ballBottom = ballYPosition + 2 * ballRadius
     let ballLeft = ballXPosition
-    let ballRight = ballXPosition -2
+    let ballRight = ballXPosition + 2 * ballRadius
+    let RPaddleTop = RPaddleYPosition
+    let RPaddleBottom = RPaddleYPosition + RPaddleHeight
+    let RPaddleRight = windowWidth - 90
     if (
         (ballYPosition + 2 * ballRadius >= LPaddleYPosition) &&
         (ballYPosition <= LPaddleYPosition + LPaddleHeight) &&
@@ -51,7 +54,7 @@ function moveBall() {
     }
 
     if (
-
+        
     )
 
     ballXPosition = ballXPosition + ballSpeed * ballXDirection

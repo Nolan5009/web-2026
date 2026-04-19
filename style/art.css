@@ -14,8 +14,8 @@ body {
 
 .container {
     position: relative;
-    height: 100vh;
-    width: 100vw;
+    height: 800px;
+    width: 800px;
 
 }
 
@@ -28,8 +28,9 @@ body {
     justify-content: center;
     align-items: center;
     position relative;
-    top: 35vh;
-    left: 22vw;
+    top: 35%;
+    left: 10%;
+    transform: translateX(-50%);
     border: 10px solid black;
     border-radius: 40%;
     transform: rotate(-20deg);
@@ -46,14 +47,51 @@ body {
     border-radius: 50%;
 }
 
+.pointer {
+    position: absolute;
+    background: #8E9494;
+    height: 300px;
+    width: 125px;
+    border: 10px solid black;
+    transform: rotate(-20deg);
+    top: 18%;
+    left: 17%;
+    z-index: -1;
+}
+
+.pinky {
+    position: absolute;
+    background: #8E9494;
+    height: 300px;
+    width: 125px;
+    border: 10px solid black;
+    transform: rotate(100deg);
+    top: 45%;
+    left: 47%;
+    z-index: -1;
+}
+
+.ring {
+    position: absolute;
+    background: #8E9494;
+    height: 300px;
+    width: 125px;
+    border: 10px solid black;
+    transform: rotate(-140deg);
+    top: 57%;
+    left: 12%;
+    z-index: -1;
+}
+
 .torso{
     height: 1000px;
     width: 450px;
     background: #8E9494;
     position: relative;
-    top: 35vh;
-    left: 31.5vw;
-    z-index: -1;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -2;
     border: 5px solid black;
     border-radius: 30%;
 }
@@ -63,10 +101,10 @@ body {
     background: #8E9494;
     height: 100px;
     width: 80px;
-    left: 610px;
+    left: 50%;
+    transform: translateX(-50%);
     top: 20%;
-
-    z-index: -2;
+    z-index: -100;
     border: 5px solid black;
 }
 
@@ -78,7 +116,8 @@ body {
     border-radius: 10%;
     border: 5px solid black;
     top: 5%;
-    left: 37%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .leftEye {
@@ -102,3 +141,42 @@ body {
     left: 180px;
     border: 2px solid black;
 }
+
+.mouth {
+    position: relative;
+    width: 150px;
+    height: 25px;
+    background: #263238;
+   top: 35px;
+   left: 50%;
+   align-items: center;
+   justify-content: center;
+   transform: translateX(-50%);
+    border: 2px solid black;
+}
+
+.leftSholder {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 50%;
+    background: #263238;
+    top: 28%;
+    left: 75%;
+    transform: translateX(-50%);
+    z-index: -3;
+}
+
+.leftArm {
+    position: absolute;
+    height: 500px;
+    width: 70px;
+    background: #8E9494;
+    transform: rotate(40deg);
+    z-index: -4;
+    border: 5px solid black;
+    top: 80%;
+    left: 80%;
+}
+

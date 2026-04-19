@@ -25,15 +25,6 @@ let ballSpeed = 15
 let ballXDirection = 1
 let ballYDirection = 1
 
-let ballLeft = ballXPosition
-let LPaddleTop = LPaddleYPosition
-let LPaddleBottom = LPaddleYPosition + LPaddleHeight
-let LPaddleRight = 90
-
-
-
-
-
 function moveBall() {
 
     let ballTop = ballYPosition
@@ -43,6 +34,9 @@ function moveBall() {
     let RPaddleTop = RPaddleYPosition
     let RPaddleBottom = RPaddleYPosition + RPaddleHeight
     let RPaddleRight = windowWidth - 90
+    let LPaddleTop = LPaddleYPosition
+    let LPaddleBottom = LPaddleYPosition + LPaddleHeight
+    let LPaddleRight = 90
     if (
         (ballYPosition + 2 * ballRadius >= LPaddleYPosition) &&
         (ballYPosition <= LPaddleYPosition + LPaddleHeight) &&
@@ -54,8 +48,14 @@ function moveBall() {
     }
 
     if (
-        
-    )
+        (ballBottom >= RPaddleYPosition) &&
+        (ballYPosition <= RPaddleYPosition + RPaddleHeight) &&
+        (ballXPosition + ballRadius <= RPaddleRight) &&
+        (ballXDirection == -1)
+    ) {
+        console.log("Hit Right")
+        ballXDirection = ballXDirection * -1
+    }
 
     ballXPosition = ballXPosition + ballSpeed * ballXDirection
     ballYPosition = ballYPosition + ballSpeed * ballYDirection

@@ -16,7 +16,7 @@ let RPaddleHeight = 100
 let RPaddleWidth = 20
 let RPaddleSpeed = 10
 let RPaddleYPosition = windowHeight / 2 - RPaddleHeight / 2
-let RPaddleXPosition = windowWidth - 70
+let RPaddleXPosition = 70
 
 const ballRadius = 10
 let ballXPosition = windowWidth / 2 - ballRadius
@@ -83,6 +83,17 @@ function createLPaddle() {
     LPaddle.style.position = 'absolute'
     LPaddle.style.left = '50px'
     LPaddle.style.top = `${LPaddleYPosition}px`
+}
+
+createRPaddle()
+
+function createRPaddle() {
+    RPaddle.style.height = `${RPaddleHeight}px`
+    RPaddle.style.width = `${RPaddleWidth}px`
+    RPaddle.style.backgroundColor = 'blue'
+    RPaddle.style.position = 'absolute'
+    RPaddle.style.left = '50px'
+    RPaddle.style.top = `${RPaddleYPosition}px`
 }
 
 wKey = false

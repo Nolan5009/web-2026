@@ -48,8 +48,8 @@ function moveBall() {
     }
 
     if (
-        (ballBottom >= RPaddleYPosition) &&
-        (ballYPosition <= RPaddleYPosition + RPaddleHeight) &&
+        (ballYPosition + 2 * ballRadius >= RPaddleYPosition) &&
+        //(ballYPosition <= RPaddleYPosition + RPaddleHeight) &&
         (ballXPosition + ballRadius <= RPaddleRight) &&
         (ballXDirection == -1)
     ) {

@@ -128,6 +128,29 @@ document.addEventListener('keyup', (event) => {
     }
 })
 
+upKey = false
+downKey = false
+
+document.addEventListener('keydown', (event) => {
+    if (event.key == 'ArrowUp') {
+        upKey = true
+    }
+    if (event.key == 'ArrowDown') {
+        downKey = true
+    }
+})
+
+document.addEventListener('keyUp', (event) => {
+    if (event.key == 'ArrowUp') {
+        upKey = false
+    }
+    if (event.key == 'ArrowDown') {
+        downKey = false
+    }
+})
+
+
+
 
 
 function moveLPaddle() {
@@ -140,9 +163,20 @@ function moveLPaddle() {
     LPaddle.style.top = `${LPaddleYPosition}px`
 }
 
+function moveRPaddle() {
+    if (upKey == true && RPaddleYPosition > 0) {
+        RPaddleYPosition = RPaddleYPosition - RPaddleSpeed
+    }
+    if (downKey == true && RPaddleYPosition < windowHeight - RPaddleHeight) {
+        RPaddleYPosition = RPaddleYPosition + RPaddleSpeed
+    }
+    RPaddle.style.top = `${RPaddleYPosition}px`
+}
+
 function animate() {
     moveBall()
     moveLPaddle()
+    moveRPaddle()
     requestAnimationFrame(animate)
 }
 

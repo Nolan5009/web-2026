@@ -44,17 +44,17 @@ function moveBall() {
         (ballXDirection == -1)
     ) {
         console.log("Hit")
-        ballXDirection = ballXDirection * -1
+        ballXDirection = 1
     }
 
     if (
         (ballYPosition + 2 * ballRadius >= RPaddleYPosition) &&
-        //(ballYPosition <= RPaddleYPosition + RPaddleHeight) &&
+        (ballYPosition <= RPaddleYPosition + RPaddleHeight) &&
         (ballXPosition + ballRadius <= RPaddleRight) &&
         (ballXDirection == -1)
     ) {
         console.log("Hit Right")
-        ballXDirection = ballXDirection * -1
+        ballXDirection = -1
     }
 
     ballXPosition = ballXPosition + ballSpeed * ballXDirection

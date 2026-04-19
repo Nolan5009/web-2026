@@ -16,7 +16,7 @@ let RPaddleHeight = 100
 let RPaddleWidth = 20
 let RPaddleSpeed = 10
 let RPaddleYPosition = windowHeight / 2 - RPaddleHeight / 2
-let RPaddleXPosition = windowWidth   
+let RPaddleXPosition = windowWidth - 70
 
 const ballRadius = 10
 let ballXPosition = windowWidth / 2 - ballRadius
@@ -25,8 +25,6 @@ let ballSpeed = 15
 let ballXDirection = 1
 let ballYDirection = 1
 
-let ballTop = ballYPosition
-let ballBottom = ballYPosition + 2 * ballRadius
 let ballLeft = ballXPosition
 let LPaddleTop = LPaddleYPosition
 let LPaddleBottom = LPaddleYPosition + LPaddleHeight
@@ -35,10 +33,13 @@ let LPaddleRight = 90
 
 
 
-//setInterval(moveBall, 5)
 
 function moveBall() {
 
+    let ballTop = ballYPosition
+    let ballBottom = ballYPosition + 2 * ballRadius
+    let ballLeft = ballXPosition
+    let ballRight = ballXPosition -2
     if (
         (ballYPosition + 2 * ballRadius >= LPaddleYPosition) &&
         (ballYPosition <= LPaddleYPosition + LPaddleHeight) &&
@@ -48,6 +49,10 @@ function moveBall() {
         console.log("Hit")
         ballXDirection = ballXDirection * -1
     }
+
+    if (
+
+    )
 
     ballXPosition = ballXPosition + ballSpeed * ballXDirection
     ballYPosition = ballYPosition + ballSpeed * ballYDirection
@@ -92,7 +97,7 @@ function createRPaddle() {
     RPaddle.style.width = `${RPaddleWidth}px`
     RPaddle.style.backgroundColor = 'blue'
     RPaddle.style.position = 'absolute'
-    RPaddle.style.left = `${RPaddleXPosition}`
+    RPaddle.style.left = `${RPaddleXPosition}px`
     RPaddle.style.top = `${RPaddleYPosition}px`
 }
 

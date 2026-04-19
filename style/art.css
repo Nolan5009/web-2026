@@ -35,6 +35,7 @@ body {
     border-radius: 40%;
     transform: rotate(-20deg);
     background: #8E9494;
+    z-index: 20;
 }
 
 .blaster {
@@ -56,7 +57,7 @@ body {
     transform: rotate(-20deg);
     top: 18%;
     left: 17%;
-    z-index: -1;
+    z-index: 19;
 }
 
 .pinky {
@@ -68,7 +69,7 @@ body {
     transform: rotate(100deg);
     top: 45%;
     left: 47%;
-    z-index: -1;
+    z-index: 19;
 }
 
 .ring {
@@ -80,7 +81,7 @@ body {
     transform: rotate(-140deg);
     top: 57%;
     left: 12%;
-    z-index: -1;
+    z-index: 19;
 }
 
 .torso{
@@ -91,7 +92,7 @@ body {
     top: 30%;
     left: 50%;
     transform: translateX(-50%);
-    z-index: -2;
+    z-index: 10;
     border: 5px solid black;
     border-radius: 30%;
 }
@@ -104,7 +105,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     top: 20%;
-    z-index: -100;
+    z-index: 5;
     border: 5px solid black;
 }
 
@@ -118,6 +119,7 @@ body {
     top: 5%;
     left: 50%;
     transform: translateX(-50%);
+    z-index: 10;
 }
 
 .leftEye {
@@ -165,7 +167,7 @@ body {
     top: 28%;
     left: 75%;
     transform: translateX(-50%);
-    z-index: -3;
+    z-index: 7;
 }
 
 .leftArm {
@@ -177,7 +179,7 @@ body {
     border: 5px solid black;
     top: 80%;
     left: 80%;
-    z-index: -5;
+    z-index: 6;
 }
 
 .rightSholder {
@@ -190,6 +192,6 @@ body {
     top: 29%;
     left: 40%;
     transform: translateX(-50%);
-    z-index: -3;
+    z-index: 7;
 }
 

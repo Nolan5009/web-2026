@@ -140,7 +140,7 @@ document.addEventListener('keydown', (event) => {
     }
 })
 
-document.addEventListener('keyUp', (event) => {
+document.addEventListener('keyup', (event) => {
     if (event.key == 'ArrowUp') {
         upKey = false
     }

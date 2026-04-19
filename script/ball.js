@@ -12,7 +12,7 @@ let LPaddleSpeed = 10
 let LPaddleYPosition = windowHeight / 2 - LPaddleHeight / 2
 let LPaddleXPosition = 70
 
-let RPaddleHeight = 500
+let RPaddleHeight = 100
 let RPaddleWidth = 20
 let RPaddleSpeed = 10
 let RPaddleYPosition = windowHeight / 2 - RPaddleHeight / 2

@@ -12,7 +12,7 @@ let LPaddleSpeed = 10
 let LPaddleYPosition = windowHeight / 2 - LPaddleHeight / 2
 let LPaddleXPosition = 70
 
-let RPaddleHeight = 100
+let RPaddleHeight = 500
 let RPaddleWidth = 20
 let RPaddleSpeed = 10
 let RPaddleYPosition = windowHeight / 2 - RPaddleHeight / 2
@@ -50,8 +50,8 @@ function moveBall() {
     if (
         (ballYPosition + 2 * ballRadius >= RPaddleYPosition) &&
         (ballYPosition <= RPaddleYPosition + RPaddleHeight) &&
-        (ballXPosition + ballRadius <= RPaddleRight) &&
-        (ballXDirection == -1)
+        (ballXPosition + 2 * ballRadius >= RPaddleXPosition) &&
+        (ballXDirection == 1)
     ) {
         console.log("Hit Right")
         ballXDirection = -1

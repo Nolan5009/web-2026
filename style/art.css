@@ -178,6 +178,6 @@ body {
     border: 5px solid black;
     top: 80%;
     left: 80%;
-    z-index: 
+    z-index: -4;
 }
 
